@@ -23,7 +23,7 @@ public class ConditionalTest {
             System.out.println(4);
                 break;
             case 5:
-            System.out.println(5);
+                System.out.println(5);
                 break;
             default:
                 System.out.println("error");
