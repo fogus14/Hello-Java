@@ -90,6 +90,8 @@ public class Main {
         System.out.println(dog1.getName());
         System.out.println(dogA.getName());
 
+
+
 //        변수 a, b, c => 메모리 주소 참조 : 123
 //                a가 바뀌면 123 메모리를 가리키고 있는 b, c 전부 바뀐다.
 
