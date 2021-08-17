@@ -1,4 +1,7 @@
-package com.fogus14.tutorial.designpatterns;
+package com.fogus14.tutorial.designpatterns.singleton;
+
+import com.fogus14.tutorial.designpatterns.singleton.EagerInitializedSingleton;
+import com.fogus14.tutorial.designpatterns.singleton.LazyInitializedSingleton;
 
 public class SingletonTest {
 

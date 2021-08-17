@@ -1,4 +1,4 @@
-package com.fogus14.tutorial.designpatterns;
+package com.fogus14.tutorial.designpatterns.singleton;
 
 public class LazyInitializedSingleton {
 
