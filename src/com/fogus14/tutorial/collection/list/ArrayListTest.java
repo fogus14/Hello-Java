@@ -1,4 +1,4 @@
-package com.fogus14.tutorial.collection;
+package com.fogus14.tutorial.collection.list;
 
 import java.util.ArrayList;
 import java.util.Arrays;
