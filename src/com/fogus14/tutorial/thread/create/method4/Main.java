@@ -4,7 +4,7 @@ package com.fogus14.tutorial.thread.create.method4;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        Thread myThread = new Thread(() -> {
+        Thread myThread = new Thread(() -> {                // 생성자에 람다로 Runnable interface의 run 메서드 오버라이드하기
             while (true) {
                 try {
                     System.out.println("MyRunnable is running");

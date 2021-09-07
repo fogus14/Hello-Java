@@ -4,7 +4,7 @@ package com.fogus14.tutorial.thread.create.method3;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        Thread myThread = new Thread(new Runnable() {
+        Thread myThread = new Thread(new Runnable() {           // 생성자에 new Runnable로 익명클래스로 run 메서드를 오버라이드 하기
             @Override
             public void run() {
                 while (true) {

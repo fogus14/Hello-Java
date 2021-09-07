@@ -35,7 +35,7 @@ public class Main {
         myThreadGroup.interrupt();
 
         String myThreadGroupName = myThreadGroup.getName();
-        System.out.println("my threadgroupname is " + myThreadGroupName);
+        System.out.println("my thread group name is " + myThreadGroupName);
 
     }
 }

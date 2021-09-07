@@ -4,7 +4,7 @@ import com.fogus14.tutorial.thread.stop.flag.MyThread;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        Runnable myRunnable = new MyRunnable();
+        Runnable myRunnable = new MyRunnable();                     // Runnable interface를 구현한 클래스를 넣어주기
         Thread myThread = new Thread(myRunnable, "ABC");
         myThread.start();
 
