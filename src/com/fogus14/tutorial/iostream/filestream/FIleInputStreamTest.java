@@ -13,7 +13,7 @@ public class FIleInputStreamTest {
             // read()
 //            int read;
 //            while ((read = fis.read()) != -1) {
-//                System.out.println((char) read);
+//                System.out.println((char) read);        // int형으로 반환하기때문에 char로 형변환 해줌.
 //            }
 
             // read(byte[])
@@ -22,7 +22,7 @@ public class FIleInputStreamTest {
 //            int read = fis.read(bytes, 1, 2);
 //            System.out.println(new String(bytes, 1, read, StandardCharsets.UTF_8));
 
-            // readAllBytes
+//            // readAllBytes
             byte[] bytes = fis.readAllBytes();
             System.out.println(Arrays.toString(bytes));
         } catch (FileNotFoundException e) {
