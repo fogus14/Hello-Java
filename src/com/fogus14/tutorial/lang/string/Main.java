@@ -1,4 +1,4 @@
-package com.fogus14.tutorial.string;
+package com.fogus14.tutorial.lang.string;
 
 public class Main {
 
