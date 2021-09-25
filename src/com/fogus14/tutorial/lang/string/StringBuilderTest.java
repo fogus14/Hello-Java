@@ -18,10 +18,10 @@ public class StringBuilderTest {
         int length = sb.length();
         System.out.println(length);
         sb.append("000");
-        int capacity = sb.capacity();
+        int capacity = sb.capacity();       // 효율에 맞게 해당 메모리 크기 설정
         System.out.println(sb.length());
         System.out.println(sb.capacity());
-        sb.trimToSize();
+        sb.trimToSize();                    // 해당 문자열에 최적화된 메모리 크기 설정
         System.out.println(sb.capacity());
     }
 }
